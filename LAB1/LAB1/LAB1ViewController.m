@@ -26,6 +26,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *pointageJ1Juge3;
 @property (weak, nonatomic) IBOutlet UILabel *nomPointageJoueur1;
 @property (weak, nonatomic) IBOutlet UILabel *nomPointageJoueur2;
+@property (weak, nonatomic) IBOutlet UILabel *nomPointRoundJ1;
+@property (weak, nonatomic) IBOutlet UILabel *nomPointRoundJ2;
+@property (weak, nonatomic) IBOutlet UILabel *nomFautesJ1;
+@property (weak, nonatomic) IBOutlet UILabel *nomFautesJ2;
 @property (weak, nonatomic) IBOutlet UILabel *pointageJ2Juge1;
 @property (weak, nonatomic) IBOutlet UILabel *pointageJ2Juge2;
 @property (weak, nonatomic) IBOutlet UILabel *pointageJ2Juge3;
@@ -74,6 +78,10 @@
     [sender resignFirstResponder];
     self.nomPointageJoueur1.text = self.nomBoxerRouge.text;
     self.nomPointageJoueur2.text = self.nomBoxerBleu.text;
+    self.nomPointRoundJ1.text = self.nomBoxerRouge.text;
+    self.nomPointRoundJ2.text = self.nomBoxerBleu.text;
+    self.nomFautesJ1.text = self.nomBoxerRouge.text;
+    self.nomFautesJ2.text = self.nomBoxerBleu.text;
 }
 
 @end
