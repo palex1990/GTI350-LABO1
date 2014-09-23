@@ -20,7 +20,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *nomBoxerRouge;
 @property (weak, nonatomic) IBOutlet UITextField *nomBoxerBleu;
 @property (weak, nonatomic) IBOutlet UITextField *numeroRound;
-@property (weak, nonatomic) IBOutlet UITextField *pointageJ1Juge1;
 @property (weak, nonatomic) IBOutlet UILabel *pointageJ1Juge1;
 @property (weak, nonatomic) IBOutlet UILabel *pointageJ1Juge2;
 @property (weak, nonatomic) IBOutlet UILabel *pointageJ1Juge3;
