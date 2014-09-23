@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5063D2DD19D1D50700B0B233 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5063D2DC19D1D50700B0B233 /* blue.png */; };
 		5074411E19C8EE9F00FE247B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5074411D19C8EE9F00FE247B /* Foundation.framework */; };
 		5074412019C8EE9F00FE247B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5074411F19C8EE9F00FE247B /* CoreGraphics.framework */; };
 		5074412219C8EE9F00FE247B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5074412119C8EE9F00FE247B /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5063D2DC19D1D50700B0B233 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = LAB1/blue.png; sourceTree = "<group>"; };
 		5074411A19C8EE9F00FE247B /* LAB1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAB1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5074411D19C8EE9F00FE247B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5074411F19C8EE9F00FE247B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,6 +88,7 @@
 		5074411119C8EE9F00FE247B = {
 			isa = PBXGroup;
 			children = (
+				5063D2DC19D1D50700B0B233 /* blue.png */,
 				5074415A19C8FE2F00FE247B /* japan-and-taiwan-samsung-567.png */,
 				5074415219C8FA5C00FE247B /* right-upper-red-corner-md.png */,
 				5074412319C8EE9F00FE247B /* LAB1 */,
@@ -240,6 +243,7 @@
 				5074412819C8EE9F00FE247B /* InfoPlist.strings in Resources */,
 				5074413119C8EE9F00FE247B /* Main.storyboard in Resources */,
 				5074415319C8FA5C00FE247B /* right-upper-red-corner-md.png in Resources */,
+				5063D2DD19D1D50700B0B233 /* blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
