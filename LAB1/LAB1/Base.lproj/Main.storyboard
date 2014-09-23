@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -68,7 +68,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IbN-yl-qJw">
-                                <rect key="frame" x="82" y="96" width="93" height="30"/>
+                                <rect key="frame" x="91" y="96" width="93" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Début Round">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -610,19 +610,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="NomBoxerRouge" destination="VTi-qd-UD9" id="CE7-sf-CTn"/>
-                        <outlet property="nomBoxerbleu" destination="ylA-4F-ZdP" id="tIm-2B-NBE"/>
-                        <outlet property="nomJoueur1" destination="zTS-F9-b0z" id="7yw-9e-u5m"/>
-                        <outlet property="nomJoueur2" destination="GPL-Bv-QnE" id="ZFz-Qe-gmv"/>
+                        <outlet property="nomBoxerBleu" destination="ylA-4F-ZdP" id="8HG-ti-rwo"/>
+                        <outlet property="nomBoxerRouge" destination="VTi-qd-UD9" id="dZm-pD-AAV"/>
+                        <outlet property="nomFautesJ1" destination="zTS-F9-b0z" id="bbM-e4-4Mk"/>
+                        <outlet property="nomFautesJ2" destination="GPL-Bv-QnE" id="wLf-Ft-fNf"/>
+                        <outlet property="nomPointRoundJ1" destination="a4K-Qq-mMo" id="Gbk-4N-Knj"/>
+                        <outlet property="nomPointRoundJ2" destination="XjI-aM-fZG" id="9VH-eG-8LZ"/>
                         <outlet property="nomPointageJoueur1" destination="tU2-1G-hNH" id="xG0-0T-f20"/>
                         <outlet property="nomPointageJoueur2" destination="y2l-Sy-xi7" id="NQQ-VJ-l26"/>
                         <outlet property="numeroRound" destination="hdS-kL-fmH" id="Ii1-zk-gJq"/>
                         <outlet property="pointageJ2Juge2" destination="7KG-gJ-y02" id="tav-Mb-UJ4"/>
                         <outlet property="pointageJ2Juge3" destination="wVJ-UI-Vir" id="n1q-XR-bLL"/>
-                        <outlet property="pointageRoundJuge1" destination="IaJ-3U-lVa" id="UXw-Jn-wZg"/>
-                        <outlet property="pointageRoundJuge2" destination="C3H-CK-4qk" id="F49-oi-8Io"/>
-                        <outlet property="pointageRoundJuge3" destination="anb-mj-LY1" id="fdN-jC-bxH"/>
-                        <outlet property="pointageTotalJuge1" destination="feq-A7-PC8" id="OiW-uc-Dpz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
