@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -49,32 +49,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PTS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IaJ-3U-lVa">
-                                <rect key="frame" x="642" y="326" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PTS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3H-CK-4qk">
-                                <rect key="frame" x="642" y="379" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PTS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anb-mj-LY1">
-                                <rect key="frame" x="642" y="433" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IbN-yl-qJw">
-                                <rect key="frame" x="91" y="96" width="93" height="30"/>
+                                <rect key="frame" x="91" y="96" width="101" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Début Round">
+                                <state key="normal" title="Début Combat">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="debutRound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="exA-ed-jPe"/>
+                                    <action selector="debutCombat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TD4-gx-1Ht"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIv-9U-Kdy">
@@ -531,24 +513,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PTS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feq-A7-PC8">
-                                <rect key="frame" x="706" y="326" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PTS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7KG-gJ-y02">
-                                <rect key="frame" x="706" y="379" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PTS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wVJ-UI-Vir">
-                                <rect key="frame" x="706" y="433" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Boxer 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tU2-1G-hNH">
                                 <rect key="frame" x="620" y="289" width="64" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -580,7 +544,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Nom Juge 1" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qmj-Gd-u57">
-                                <rect key="frame" x="486" y="322" width="131" height="30"/>
+                                <rect key="frame" x="486" y="322" width="108" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -589,7 +553,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Nom Juge 2" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JpQ-vD-l8m">
-                                <rect key="frame" x="486" y="375" width="131" height="30"/>
+                                <rect key="frame" x="486" y="379" width="108" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -598,13 +562,49 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Nom Juge 3" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0r7-GB-QYD">
-                                <rect key="frame" x="486" y="429" width="131" height="30"/>
+                                <rect key="frame" x="486" y="429" width="108" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="textFieldReturn:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="BeZ-zL-EeH"/>
                                 </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tca-mw-qhm">
+                                <rect key="frame" x="627" y="322" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4xt-md-bja">
+                                <rect key="frame" x="627" y="379" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KNV-dG-Vyz">
+                                <rect key="frame" x="627" y="429" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KCr-4a-UzS">
+                                <rect key="frame" x="702" y="322" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B74-ZY-PoN">
+                                <rect key="frame" x="702" y="379" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VkV-CV-oej">
+                                <rect key="frame" x="702" y="429" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -619,8 +619,36 @@
                         <outlet property="nomPointageJoueur1" destination="tU2-1G-hNH" id="xG0-0T-f20"/>
                         <outlet property="nomPointageJoueur2" destination="y2l-Sy-xi7" id="NQQ-VJ-l26"/>
                         <outlet property="numeroRound" destination="hdS-kL-fmH" id="Ii1-zk-gJq"/>
-                        <outlet property="pointageJ2Juge2" destination="7KG-gJ-y02" id="tav-Mb-UJ4"/>
-                        <outlet property="pointageJ2Juge3" destination="wVJ-UI-Vir" id="n1q-XR-bLL"/>
+                        <outlet property="pointageB1J1" destination="tca-mw-qhm" id="Vl6-6h-EMl"/>
+                        <outlet property="pointageB1J2" destination="4xt-md-bja" id="ZCs-4n-6bT"/>
+                        <outlet property="pointageB1J3" destination="KNV-dG-Vyz" id="x5k-aF-s44"/>
+                        <outlet property="pointageB1R1" destination="NKp-Ik-nE3" id="Bjm-zu-1FH"/>
+                        <outlet property="pointageB1R10" destination="he0-zl-7ZE" id="P1A-Mh-jVy"/>
+                        <outlet property="pointageB1R11" destination="PVQ-gx-50J" id="399-CR-8OV"/>
+                        <outlet property="pointageB1R12" destination="iEh-lA-jSH" id="W5c-AI-kwL"/>
+                        <outlet property="pointageB1R2" destination="AuR-U7-phN" id="X8u-ag-QVv"/>
+                        <outlet property="pointageB1R3" destination="okJ-oi-Sg0" id="ff0-ME-Llt"/>
+                        <outlet property="pointageB1R4" destination="2cn-Rw-i9s" id="fyg-Zk-NgI"/>
+                        <outlet property="pointageB1R5" destination="5fj-Y3-w3U" id="a9C-ZT-ZVZ"/>
+                        <outlet property="pointageB1R6" destination="xxN-DD-24H" id="k6f-p2-R9b"/>
+                        <outlet property="pointageB1R7" destination="sPd-9K-JqW" id="EFc-zT-s9M"/>
+                        <outlet property="pointageB1R8" destination="oZL-j9-2J1" id="EkI-DO-553"/>
+                        <outlet property="pointageB1R9" destination="Gmc-5T-bjM" id="jpL-8y-8Jx"/>
+                        <outlet property="pointageB2J1" destination="KCr-4a-UzS" id="CJ7-oG-cQz"/>
+                        <outlet property="pointageB2J2" destination="B74-ZY-PoN" id="Eg6-y3-I3B"/>
+                        <outlet property="pointageB2J3" destination="VkV-CV-oej" id="lkc-Lc-pWI"/>
+                        <outlet property="pointageB2R1" destination="Seb-cU-HiW" id="430-5u-G5q"/>
+                        <outlet property="pointageB2R10" destination="FoL-jT-KHf" id="IVE-Qh-9BA"/>
+                        <outlet property="pointageB2R11" destination="jvM-Df-NMm" id="tjE-LE-SbK"/>
+                        <outlet property="pointageB2R12" destination="3gE-hR-58Z" id="GRg-c0-ClB"/>
+                        <outlet property="pointageB2R2" destination="nsK-cq-oeB" id="iip-Qk-a80"/>
+                        <outlet property="pointageB2R3" destination="cr0-8e-aTM" id="wEf-3O-awR"/>
+                        <outlet property="pointageB2R4" destination="9cS-LP-2b4" id="SRc-OR-7im"/>
+                        <outlet property="pointageB2R5" destination="xtF-Ad-klJ" id="M4J-vG-oma"/>
+                        <outlet property="pointageB2R6" destination="PTa-TN-ZpB" id="OQ2-ba-3cZ"/>
+                        <outlet property="pointageB2R7" destination="YIJ-an-qdh" id="59n-ee-gHp"/>
+                        <outlet property="pointageB2R8" destination="flM-nP-kso" id="JGd-gY-Inn"/>
+                        <outlet property="pointageB2R9" destination="zkg-iq-kOB" id="im6-V0-rAX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LAB1ViewController : UIViewController
+@interface LAB1ViewController : UIViewController <UITextFieldDelegate>
 
 - (IBAction)textFieldReturn:(id)sender;
 
